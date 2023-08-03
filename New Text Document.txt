@@ -1,0 +1,109 @@
+<!doctype html>
+<html lan="eng">
+    <head>
+        <title> demo of  form</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Ravi mahato">
+       <!---- <meta http-equiv="refresh" content="5"> -->
+        </head>
+        <body bgcolor="grey">
+            
+            <center><h3> EMPLOYEE  HEALTH  INFORMATION  FORM</h3></center>
+            <form>
+            
+            <div id="name">
+               <label for="">EMPLOYEE NAME :- </label>
+                <p><input type="text" placeholder="first">
+                <input type="text" placeholder="middle">
+                <input type="text" placeholder="last"></p>
+                
+            </div>
+             <br>
+            <div id="email">
+                <label for="">EMAIL :- </label>
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+            </div>
+            <br>
+            
+            <br>
+
+            <div id="address">
+
+                <label for="">ADDRESS :- </label>
+                <input type="text" placeholder="street address" >
+                <p><input type="text" placeholder="street address line 2"></p>
+                <input type="text" placeholder="city">
+                <input type="text" placeholder="region"><br>
+                <br>
+                <input type="number" placeholder="postal/zip">
+                <input type="text" placeholder="sex">
+                </div>
+<br>
+
+<div ID="nationality">
+    <label for="">  NATIONALITY :- </label>
+    <select>
+        <option  value=" INDIAN"> INDIAN </option>
+        <option  value=" AMERICAN "> AMERICAN</option>
+        <option  value=" BRITISH"> BRITISH </option>
+        </select>
+</div> 
+<br>
+<div id="medical">
+    <label for=""> MEDICAL Condition :-</label>
+    <input type="radio" name="Condition"> GOOD
+    <input type="radio" name="Condition"> BAD
+    <input type="radio" name="Condition"> OTHER
+</div>
+<br>
+
+<div id="precoution">
+    <label for="">PRECOUTION</label><br>
+    <textarea name="precoution" cols="30" rows="5"> </textarea>
+</div>
+<br>
+<div id="about">
+    <label for="">TELL ABOUT HEALTH</label><br>
+    <textarea name="precoution" cols="30" rows="5"> </textarea>
+
+</div>
+<br>
+<div id="personal information">
+    <label for=""> PERSOANAL INFO</label><br>
+    <br>
+    age:-
+    <input type="number">
+    <br><br>
+    date of birth :-
+    <input type="date">
+    <br><br>
+    mobile no. :-
+    <input type="number">
+    <br><br>
+    fav color :-
+    <input type="color">
+    <br><br>
+    fav cricketer :-
+    <input type="checkbox"> MS DHNOI
+    <input type="checkbox"> V KOHLI
+    <input type="checkbox"> S TENDULKAR
+    <input type="checkbox">  R SHARMA
+    <br><br>
+    last month :-
+    <input type="month">
+    <br><br>
+    form filling time :-
+    <input type="time">
+    <br><br>
+    date of registration :-
+    <input type="date">
+    linkdin id :-
+    <input type="url" placeholder="ulr">
+</div>
+<br><br>
+ <input type="submit" size="50%"> 
+<input type="reset">
+            </form>
+            </body>
+            </html>
